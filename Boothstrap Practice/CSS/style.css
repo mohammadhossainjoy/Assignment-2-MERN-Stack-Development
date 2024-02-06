@@ -1,0 +1,274 @@
+*{
+     margin: 0;
+     padding: 0;
+    
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ body {
+    font-family: 'Tanker', sans-serif;
+    font-family: 'General Sans', sans-serif;
+   font-family: "Roboto", sans-serif;
+ }
+/*Navbar css start*/
+ 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 65px;
+    padding: 1% 2%;
+    background-color: #fbfffd;
+      
+ }
+ .logo{
+    display: flex;
+ }
+ .logo ul li a{
+        font-family: Tanker;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        
+ }
+ .nav-links ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+ }
+ .nav-links ul li a{
+    font-family: General Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+        color: #111018;
+ }
+ .button-sign ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+ }
+ .signin{
+font-family: General Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: #111018;
+    border: 0px solid #111018;
+    border-radius: 30px;
+    padding: 10px 40px;
+ }
+ .signin:hover{
+   background-color: #9333EA;
+   color: #ffffff;
+   transition: 0.3s;
+ }
+
+.signup {
+   font-family: General Sans;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.30000001192092896px;
+   text-align: left;
+   color: #111018;
+   border: 0px solid #111018;
+   border-radius: 30px;
+   padding: 10px 40px;
+}
+
+.signup:hover {
+   background-color: #9333EA;
+   color: #ffffff;
+   transition: 0.3s;
+}
+
+ /*Navbar css end*/
+
+
+ /*banner css start*/
+ .container{
+   margin-left: 8%;
+   margin-right:20px;
+ }
+ .rectangale-1{
+   width: 20px ;
+   height:20px ;
+   margin-left: 790px;
+   margin-top: 40px;
+   background: #E8E6FF; 
+ }
+ .rectangale-2{
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+      margin-top:0px;
+ }
+ .rectangale-2 {
+    position: relative;
+    background: #E8E6FF;
+ }
+ .banner{
+   display: grid;
+   grid-template-columns: 6fr 6fr;
+   align-items: center;
+ }
+.banner .bannerinfo h1{
+   font-family: Roboto;
+  
+
+   
+      font-size: 66px;
+      font-weight: 600;
+      line-height: 78px;
+      letter-spacing: 2px;
+      
+      text-align: left;
+}
+.banner .bannerinfo p{
+   font-family: General Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.3px;
+      text-align: left;
+}
+ .banner-button {
+    display: flex;
+    margin-left: 0;
+    column-gap: 20px;
+    
+ }
+ .round-img{
+   margin-top: 30px;
+ }
+ .small-content{
+   margin-top: 30px;
+   margin-left: 10px;
+ }
+.banner-img img{
+ margin-right: 10px;  
+}
+.round-img .img2{
+   margin-left: -25px;
+
+}
+.small-content h2{
+   font-family: Roboto;
+      font-size: 24px;
+      font-weight: 500;
+  
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+}
+.small-content p{
+   font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+    margin-top: -10px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+}
+.banner-img-con .aro-img{
+   margin-left: 430px;
+  transform: rotate(-26deg);
+}
+.banner-img-con{
+   display: flex;
+}
+.banner-button .getstart{
+   padding: 7px;
+   border: 1px solid #9333EA;
+   border-radius: 30px;
+   padding: 7px 40px;
+   color: #9333EA;
+   
+   text-align: center;
+  
+
+}
+.banner-button .getstart:hover{
+   background-color: #9333EA;
+   color: #ffffff;
+   transition: 0.3s;
+}
+.banner-button .getvideo{
+   padding: 7px;
+   border: 1px solid #9333EA;
+   border-radius: 30px;
+      padding: 10px 40px;
+      color: #9333EA;
+      
+}
+.banner-button .getvideo img{
+   margin-right: 10px;
+   width: 20px;
+    height:20px ;
+    top: 10.53px;
+     left: 5.32px;
+     color: #9333EA;
+}
+.banner-button .getvideo:hover {
+   background-color: #9333EA;
+   color: #ffffff;
+   transition: 0.3s;
+}
+ /*banner css end*/
+
+
+
+ /*Courses css start*/
+ .course-content{
+   display: flex;
+   text-align: center;
+   
+ }
+ .course-content .vec-img{
+   margin-left: 30px;
+ }
+ .course-content .ph3{
+ margin-left: 18%;
+ }
+
+ .course-box{
+   display: grid;
+   grid-template-columns: repeat(4,3fr);
+   column-gap: 20px;
+ }
+ .course-card{
+   box-shadow: 2px 2px 5px 2px #e8dada;
+   margin-bottom: 10px;
+   border-top: 4px solid #9333EA;
+ }
+ .course-box .course-card img{
+   margin-left: 15px;
+   margin-top: 20px;
+
+ }
+ .course-box .course-card .cours-con{
+ margin: 20px;
+ }
+
+ .course-box .course-card .cours-con h3{
+   font-family: Roboto;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+     
+      text-align: left;
+ }
+ /*Courses css end*/
+ 
